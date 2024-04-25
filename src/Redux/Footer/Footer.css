@@ -1,0 +1,10 @@
+.footer_css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 5px 0px 5px 0px
+}

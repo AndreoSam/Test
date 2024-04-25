@@ -1,0 +1,35 @@
+.view_css {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.view_css_left {
+    border: 2px solid black;
+    width: 50%;
+    padding: 50px;
+}
+
+.view_css_right {
+    border: 2px solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.image_css {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    /* width: 400px; */
+}
+
+.view_css_right_1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}

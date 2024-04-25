@@ -1,0 +1,27 @@
+.header_div {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+}
+
+.header_text_1 {
+    color: white;
+    width: 20%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header_ecom:hover {
+    cursor: pointer;
+    color: blue;
+    transition: all 0.3s ease;
+}
+
+.header_text_2 {
+    color: white;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 700;
+}
