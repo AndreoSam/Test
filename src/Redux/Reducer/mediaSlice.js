@@ -49,11 +49,11 @@ export const searchItem = createAsyncThunk("get/searchItem", async (search) => {
   return res?.data;
 });
 
-const initialValues = {
-  userData: [],
-  loading: false,
-  error: null,
-};
+  const initialValues = {
+    userData: [],
+    loading: false,
+    error: null,
+  };
 
 export const mediaSlice = createSlice({
   name: "Slice",
